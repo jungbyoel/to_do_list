@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-tap-highlight" content="no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://fonts.gstatic.com" rel="preconnect" type="text/css" media="all"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" type="text/css" media="all"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+<title>My_Todo_List2</title>
+</head>
+
+
+<body>
+
+
+<main>
+    <section class="glass">
+        <div class="tasks">
+
+            <div class="status">
+                <h1>My_Todo_List.2</h1>
+            </div>
+
+            <h2>Ajouter une nouvelle tâche :</h2>
+            <div class="cards">
+                <div class="card">
+                    <form>
+                        <input type="text" class="todo-input" placeholder="Ajouter une nouvelle tâche ..."/>
+                        <button class="todo-button" type="submit">
+                            <i class="fas fa-plus-square"></i>
+                        </button>
+                        <div class="select">
+                            <select name="todos" class="filter-todo">
+                                <option value="all">Lister toutes les tâches.</option>
+                                <option value="completed">Lister les tâches terminées.</option>
+                                <option value="uncompleted">Lister les tâches en cours.</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <h2>Liste des tâches :</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="todo-container">
+                        <ul class="todo-list"></ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="circle1"></div>
+<div class="circle2"></div>
+
+<script src="../js/script.js"></script>
+(<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
